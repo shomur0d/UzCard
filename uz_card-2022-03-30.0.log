@@ -1,0 +1,413 @@
+30 мар. 2022 - 13:34:45.495 -  INFO  - o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+30 мар. 2022 - 13:34:45.605 -  INFO  - o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 86 ms. Found 3 JPA repository interfaces.
+30 мар. 2022 - 13:34:46.437 -  INFO  - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+30 мар. 2022 - 13:34:46.453 -  INFO  - o.a.catalina.core.StandardService - Starting service [Tomcat]
+30 мар. 2022 - 13:34:46.453 -  INFO  - o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.60]
+30 мар. 2022 - 13:34:46.672 -  INFO  - o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+30 мар. 2022 - 13:34:46.672 -  INFO  - o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2404 ms
+30 мар. 2022 - 13:34:46.928 -  INFO  - o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+30 мар. 2022 - 13:34:47.002 -  INFO  - org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.7.Final
+30 мар. 2022 - 13:34:47.228 -  INFO  - o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+30 мар. 2022 - 13:34:47.347 -  INFO  - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+30 мар. 2022 - 13:34:47.598 -  INFO  - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+30 мар. 2022 - 13:34:47.629 -  INFO  - org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+30 мар. 2022 - 13:34:47.880 -  WARN  - org.hibernate.id.UUIDHexGenerator - HHH000409: Using org.hibernate.id.UUIDHexGenerator which does not generate IETF RFC 4122 compliant UUID values; consider using org.hibernate.id.UUIDGenerator instead
+30 мар. 2022 - 13:34:48.633 -  INFO  - o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+30 мар. 2022 - 13:34:48.649 -  INFO  - o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+30 мар. 2022 - 13:34:48.695 -  WARN  - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+30 мар. 2022 - 13:34:49.982 -  INFO  - o.s.s.web.DefaultSecurityFilterChain - Will not secure any request
+30 мар. 2022 - 13:34:50.374 -  INFO  - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+30 мар. 2022 - 13:35:35.539 -  INFO  - o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+30 мар. 2022 - 13:35:35.555 -  INFO  - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+30 мар. 2022 - 13:35:35.555 -  INFO  - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+30 мар. 2022 - 13:35:40.638 -  INFO  - o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+30 мар. 2022 - 13:35:40.716 -  INFO  - o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 62 ms. Found 3 JPA repository interfaces.
+30 мар. 2022 - 13:35:41.483 -  INFO  - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+30 мар. 2022 - 13:35:41.498 -  INFO  - o.a.catalina.core.StandardService - Starting service [Tomcat]
+30 мар. 2022 - 13:35:41.498 -  INFO  - o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.60]
+30 мар. 2022 - 13:35:41.670 -  INFO  - o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+30 мар. 2022 - 13:35:41.670 -  INFO  - o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2111 ms
+30 мар. 2022 - 13:35:41.904 -  INFO  - o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+30 мар. 2022 - 13:35:41.951 -  INFO  - org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.7.Final
+30 мар. 2022 - 13:35:42.092 -  INFO  - o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+30 мар. 2022 - 13:35:42.201 -  INFO  - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+30 мар. 2022 - 13:35:42.389 -  INFO  - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+30 мар. 2022 - 13:35:42.420 -  INFO  - org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+30 мар. 2022 - 13:35:42.608 -  WARN  - org.hibernate.id.UUIDHexGenerator - HHH000409: Using org.hibernate.id.UUIDHexGenerator which does not generate IETF RFC 4122 compliant UUID values; consider using org.hibernate.id.UUIDGenerator instead
+30 мар. 2022 - 13:35:43.265 -  INFO  - o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+30 мар. 2022 - 13:35:43.265 -  INFO  - o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+30 мар. 2022 - 13:35:43.328 -  WARN  - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+30 мар. 2022 - 13:35:44.470 -  INFO  - o.s.s.web.DefaultSecurityFilterChain - Will not secure any request
+30 мар. 2022 - 13:35:44.829 -  INFO  - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+30 мар. 2022 - 13:36:01.530 -  INFO  - o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+30 мар. 2022 - 13:36:01.530 -  INFO  - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+30 мар. 2022 - 13:36:01.546 -  INFO  - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+30 мар. 2022 - 13:40:33.793 -  INFO  - com.company.UzCard.UzCardApplication - Starting UzCardApplication using Java 16.0.2 on DESKTOP-UH8OF4J with PID 10548 (C:\Users\Administrator\OneDrive\UzCard\target\classes started by Administrator in C:\Users\Administrator\OneDrive\UzCard)
+30 мар. 2022 - 13:40:33.793 -  INFO  - com.company.UzCard.UzCardApplication - No active profile set, falling back to 1 default profile: "default"
+30 мар. 2022 - 13:40:34.997 -  INFO  - o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+30 мар. 2022 - 13:40:35.075 -  INFO  - o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 72 ms. Found 3 JPA repository interfaces.
+30 мар. 2022 - 13:40:35.841 -  INFO  - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+30 мар. 2022 - 13:40:35.856 -  INFO  - o.a.catalina.core.StandardService - Starting service [Tomcat]
+30 мар. 2022 - 13:40:35.856 -  INFO  - o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.60]
+30 мар. 2022 - 13:40:36.044 -  INFO  - o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+30 мар. 2022 - 13:40:36.044 -  INFO  - o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2191 ms
+30 мар. 2022 - 13:40:36.310 -  INFO  - o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+30 мар. 2022 - 13:40:36.357 -  INFO  - org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.7.Final
+30 мар. 2022 - 13:40:36.561 -  INFO  - o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+30 мар. 2022 - 13:40:36.686 -  INFO  - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+30 мар. 2022 - 13:40:36.905 -  INFO  - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+30 мар. 2022 - 13:40:36.920 -  INFO  - org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+30 мар. 2022 - 13:40:37.123 -  WARN  - org.hibernate.id.UUIDHexGenerator - HHH000409: Using org.hibernate.id.UUIDHexGenerator which does not generate IETF RFC 4122 compliant UUID values; consider using org.hibernate.id.UUIDGenerator instead
+30 мар. 2022 - 13:40:37.781 -  INFO  - o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+30 мар. 2022 - 13:40:37.796 -  INFO  - o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+30 мар. 2022 - 13:40:37.874 -  WARN  - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+30 мар. 2022 - 13:40:39.079 -  INFO  - o.s.s.web.DefaultSecurityFilterChain - Will not secure any request
+30 мар. 2022 - 13:40:39.469 -  INFO  - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+30 мар. 2022 - 13:40:39.971 -  INFO  - com.company.UzCard.UzCardApplication - Started UzCardApplication in 6.749 seconds (JVM running for 7.713)
+30 мар. 2022 - 13:41:53.708 -  INFO  - o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+30 мар. 2022 - 13:41:53.724 -  INFO  - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+30 мар. 2022 - 13:41:53.733 -  INFO  - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+30 мар. 2022 - 13:42:50.009 -  INFO  - com.company.UzCard.UzCardApplication - Starting UzCardApplication using Java 16.0.2 on DESKTOP-UH8OF4J with PID 10652 (C:\Users\Administrator\OneDrive\UzCard\target\classes started by Administrator in C:\Users\Administrator\OneDrive\UzCard)
+30 мар. 2022 - 13:42:50.025 -  INFO  - com.company.UzCard.UzCardApplication - No active profile set, falling back to 1 default profile: "default"
+30 мар. 2022 - 13:42:51.205 -  INFO  - o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+30 мар. 2022 - 13:42:51.299 -  INFO  - o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 80 ms. Found 3 JPA repository interfaces.
+30 мар. 2022 - 13:42:52.050 -  INFO  - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+30 мар. 2022 - 13:42:52.050 -  INFO  - o.a.catalina.core.StandardService - Starting service [Tomcat]
+30 мар. 2022 - 13:42:52.050 -  INFO  - o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.60]
+30 мар. 2022 - 13:42:52.300 -  INFO  - o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+30 мар. 2022 - 13:42:52.300 -  INFO  - o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2207 ms
+30 мар. 2022 - 13:42:52.548 -  INFO  - o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+30 мар. 2022 - 13:42:52.595 -  INFO  - org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.7.Final
+30 мар. 2022 - 13:42:52.783 -  INFO  - o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+30 мар. 2022 - 13:42:52.892 -  INFO  - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+30 мар. 2022 - 13:42:53.111 -  INFO  - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+30 мар. 2022 - 13:42:53.143 -  INFO  - org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+30 мар. 2022 - 13:42:53.330 -  WARN  - org.hibernate.id.UUIDHexGenerator - HHH000409: Using org.hibernate.id.UUIDHexGenerator which does not generate IETF RFC 4122 compliant UUID values; consider using org.hibernate.id.UUIDGenerator instead
+30 мар. 2022 - 13:42:53.956 -  INFO  - o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+30 мар. 2022 - 13:42:53.971 -  INFO  - o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+30 мар. 2022 - 13:42:54.018 -  WARN  - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+30 мар. 2022 - 13:42:55.175 -  INFO  - o.s.s.web.DefaultSecurityFilterChain - Will not secure any request
+30 мар. 2022 - 13:42:55.629 -  INFO  - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+30 мар. 2022 - 13:42:56.130 -  INFO  - com.company.UzCard.UzCardApplication - Started UzCardApplication in 6.705 seconds (JVM running for 7.63)
+30 мар. 2022 - 13:43:00.325 -  INFO  - o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+30 мар. 2022 - 13:43:00.325 -  INFO  - o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+30 мар. 2022 - 13:43:00.333 -  INFO  - o.s.web.servlet.DispatcherServlet - Completed initialization in 8 ms
+30 мар. 2022 - 13:46:38.314 -  INFO  - o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+30 мар. 2022 - 13:46:38.329 -  INFO  - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+30 мар. 2022 - 13:46:38.345 -  INFO  - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+30 мар. 2022 - 13:59:56.945 -  INFO  - com.company.UzCard.UzCardApplication - Starting UzCardApplication using Java 16.0.2 on DESKTOP-UH8OF4J with PID 6656 (C:\Users\Administrator\OneDrive\UzCard\target\classes started by Administrator in C:\Users\Administrator\OneDrive\UzCard)
+30 мар. 2022 - 13:59:56.945 -  INFO  - com.company.UzCard.UzCardApplication - No active profile set, falling back to 1 default profile: "default"
+30 мар. 2022 - 13:59:58.122 -  INFO  - o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+30 мар. 2022 - 13:59:58.200 -  INFO  - o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 67 ms. Found 3 JPA repository interfaces.
+30 мар. 2022 - 13:59:58.951 -  INFO  - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+30 мар. 2022 - 13:59:58.951 -  INFO  - o.a.catalina.core.StandardService - Starting service [Tomcat]
+30 мар. 2022 - 13:59:58.951 -  INFO  - o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.60]
+30 мар. 2022 - 13:59:59.138 -  INFO  - o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+30 мар. 2022 - 13:59:59.138 -  INFO  - o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2131 ms
+30 мар. 2022 - 13:59:59.357 -  INFO  - o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+30 мар. 2022 - 13:59:59.404 -  INFO  - org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.7.Final
+30 мар. 2022 - 13:59:59.544 -  INFO  - o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+30 мар. 2022 - 13:59:59.654 -  INFO  - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+30 мар. 2022 - 13:59:59.857 -  INFO  - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+30 мар. 2022 - 13:59:59.888 -  INFO  - org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+30 мар. 2022 - 14:00:00.076 -  WARN  - org.hibernate.id.UUIDHexGenerator - HHH000409: Using org.hibernate.id.UUIDHexGenerator which does not generate IETF RFC 4122 compliant UUID values; consider using org.hibernate.id.UUIDGenerator instead
+30 мар. 2022 - 14:00:00.732 -  INFO  - o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+30 мар. 2022 - 14:00:00.748 -  INFO  - o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+30 мар. 2022 - 14:00:00.826 -  WARN  - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+30 мар. 2022 - 14:00:02.014 -  INFO  - o.s.s.web.DefaultSecurityFilterChain - Will not secure any request
+30 мар. 2022 - 14:00:02.390 -  INFO  - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+30 мар. 2022 - 14:00:02.890 -  INFO  - com.company.UzCard.UzCardApplication - Started UzCardApplication in 6.511 seconds (JVM running for 7.465)
+30 мар. 2022 - 14:00:30.204 -  INFO  - o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+30 мар. 2022 - 14:00:30.204 -  INFO  - o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+30 мар. 2022 - 14:00:30.204 -  INFO  - o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+30 мар. 2022 - 14:02:46.436 -  INFO  - o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+30 мар. 2022 - 14:02:46.451 -  INFO  - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+30 мар. 2022 - 14:02:46.471 -  INFO  - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+30 мар. 2022 - 14:11:39.752 -  INFO  - com.company.UzCard.UzCardApplication - Starting UzCardApplication using Java 16.0.2 on DESKTOP-UH8OF4J with PID 5016 (C:\Users\Administrator\OneDrive\UzCard\target\classes started by Administrator in C:\Users\Administrator\OneDrive\UzCard)
+30 мар. 2022 - 14:11:39.756 -  INFO  - com.company.UzCard.UzCardApplication - No active profile set, falling back to 1 default profile: "default"
+30 мар. 2022 - 14:11:40.915 -  INFO  - o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+30 мар. 2022 - 14:11:40.993 -  INFO  - o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 63 ms. Found 3 JPA repository interfaces.
+30 мар. 2022 - 14:11:41.727 -  INFO  - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+30 мар. 2022 - 14:11:41.743 -  INFO  - o.a.catalina.core.StandardService - Starting service [Tomcat]
+30 мар. 2022 - 14:11:41.743 -  INFO  - o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.60]
+30 мар. 2022 - 14:11:41.915 -  INFO  - o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+30 мар. 2022 - 14:11:41.915 -  INFO  - o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2102 ms
+30 мар. 2022 - 14:11:42.134 -  INFO  - o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+30 мар. 2022 - 14:11:42.181 -  INFO  - org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.7.Final
+30 мар. 2022 - 14:11:42.337 -  INFO  - o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+30 мар. 2022 - 14:11:42.431 -  INFO  - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+30 мар. 2022 - 14:11:42.667 -  INFO  - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+30 мар. 2022 - 14:11:42.683 -  INFO  - org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+30 мар. 2022 - 14:11:42.870 -  WARN  - org.hibernate.id.UUIDHexGenerator - HHH000409: Using org.hibernate.id.UUIDHexGenerator which does not generate IETF RFC 4122 compliant UUID values; consider using org.hibernate.id.UUIDGenerator instead
+30 мар. 2022 - 14:11:43.480 -  INFO  - o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+30 мар. 2022 - 14:11:43.496 -  INFO  - o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+30 мар. 2022 - 14:11:43.558 -  WARN  - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+30 мар. 2022 - 14:11:44.758 -  INFO  - o.s.s.web.DefaultSecurityFilterChain - Will not secure any request
+30 мар. 2022 - 14:11:45.121 -  INFO  - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+30 мар. 2022 - 14:11:45.621 -  INFO  - com.company.UzCard.UzCardApplication - Started UzCardApplication in 6.424 seconds (JVM running for 7.289)
+30 мар. 2022 - 14:11:51.542 -  INFO  - o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+30 мар. 2022 - 14:11:51.542 -  INFO  - o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+30 мар. 2022 - 14:11:51.550 -  INFO  - o.s.web.servlet.DispatcherServlet - Completed initialization in 8 ms
+30 мар. 2022 - 14:11:51.992 -  WARN  - o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; nested exception is java.lang.NumberFormatException: For input string: "pid"]
+30 мар. 2022 - 14:14:43.011 -  INFO  - o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+30 мар. 2022 - 14:14:43.011 -  INFO  - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+30 мар. 2022 - 14:14:43.027 -  INFO  - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+30 мар. 2022 - 14:14:49.694 -  INFO  - com.company.UzCard.UzCardApplication - Starting UzCardApplication using Java 16.0.2 on DESKTOP-UH8OF4J with PID 8676 (C:\Users\Administrator\OneDrive\UzCard\target\classes started by Administrator in C:\Users\Administrator\OneDrive\UzCard)
+30 мар. 2022 - 14:14:49.694 -  INFO  - com.company.UzCard.UzCardApplication - No active profile set, falling back to 1 default profile: "default"
+30 мар. 2022 - 14:14:50.944 -  INFO  - o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+30 мар. 2022 - 14:14:51.022 -  INFO  - o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 69 ms. Found 3 JPA repository interfaces.
+30 мар. 2022 - 14:14:51.773 -  INFO  - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+30 мар. 2022 - 14:14:51.788 -  INFO  - o.a.catalina.core.StandardService - Starting service [Tomcat]
+30 мар. 2022 - 14:14:51.788 -  INFO  - o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.60]
+30 мар. 2022 - 14:14:51.975 -  INFO  - o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+30 мар. 2022 - 14:14:51.975 -  INFO  - o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2216 ms
+30 мар. 2022 - 14:14:52.225 -  INFO  - o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+30 мар. 2022 - 14:14:52.288 -  INFO  - org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.7.Final
+30 мар. 2022 - 14:14:52.460 -  INFO  - o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+30 мар. 2022 - 14:14:52.569 -  INFO  - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+30 мар. 2022 - 14:14:52.788 -  INFO  - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+30 мар. 2022 - 14:14:52.819 -  INFO  - org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+30 мар. 2022 - 14:14:53.007 -  WARN  - org.hibernate.id.UUIDHexGenerator - HHH000409: Using org.hibernate.id.UUIDHexGenerator which does not generate IETF RFC 4122 compliant UUID values; consider using org.hibernate.id.UUIDGenerator instead
+30 мар. 2022 - 14:14:53.664 -  INFO  - o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+30 мар. 2022 - 14:14:53.664 -  INFO  - o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+30 мар. 2022 - 14:14:53.726 -  WARN  - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+30 мар. 2022 - 14:14:54.930 -  INFO  - o.s.s.web.DefaultSecurityFilterChain - Will not secure any request
+30 мар. 2022 - 14:14:55.305 -  INFO  - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+30 мар. 2022 - 14:14:55.790 -  INFO  - com.company.UzCard.UzCardApplication - Started UzCardApplication in 6.685 seconds (JVM running for 7.602)
+30 мар. 2022 - 14:15:39.559 -  INFO  - o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+30 мар. 2022 - 14:15:39.559 -  INFO  - o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+30 мар. 2022 - 14:15:39.559 -  INFO  - o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+30 мар. 2022 - 14:16:46.560 -  INFO  - o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+30 мар. 2022 - 14:16:46.575 -  INFO  - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+30 мар. 2022 - 14:16:46.575 -  INFO  - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+30 мар. 2022 - 14:31:17.804 -  INFO  - com.company.UzCard.UzCardApplication - Starting UzCardApplication using Java 16.0.2 on DESKTOP-UH8OF4J with PID 776 (C:\Users\Administrator\OneDrive\UzCard\target\classes started by Administrator in C:\Users\Administrator\OneDrive\UzCard)
+30 мар. 2022 - 14:31:17.804 -  INFO  - com.company.UzCard.UzCardApplication - No active profile set, falling back to 1 default profile: "default"
+30 мар. 2022 - 14:31:19.037 -  INFO  - o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+30 мар. 2022 - 14:31:19.116 -  INFO  - o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 69 ms. Found 3 JPA repository interfaces.
+30 мар. 2022 - 14:31:19.930 -  INFO  - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+30 мар. 2022 - 14:31:19.938 -  INFO  - o.a.catalina.core.StandardService - Starting service [Tomcat]
+30 мар. 2022 - 14:31:19.946 -  INFO  - o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.60]
+30 мар. 2022 - 14:31:20.139 -  INFO  - o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+30 мар. 2022 - 14:31:20.147 -  INFO  - o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2273 ms
+30 мар. 2022 - 14:31:20.386 -  INFO  - o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+30 мар. 2022 - 14:31:20.442 -  INFO  - org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.7.Final
+30 мар. 2022 - 14:31:20.613 -  INFO  - o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+30 мар. 2022 - 14:31:20.725 -  INFO  - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+30 мар. 2022 - 14:31:20.923 -  INFO  - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+30 мар. 2022 - 14:31:20.955 -  INFO  - org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+30 мар. 2022 - 14:31:21.204 -  WARN  - org.hibernate.id.UUIDHexGenerator - HHH000409: Using org.hibernate.id.UUIDHexGenerator which does not generate IETF RFC 4122 compliant UUID values; consider using org.hibernate.id.UUIDGenerator instead
+30 мар. 2022 - 14:31:21.910 -  INFO  - o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+30 мар. 2022 - 14:31:21.918 -  INFO  - o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+30 мар. 2022 - 14:31:21.970 -  WARN  - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+30 мар. 2022 - 14:31:23.162 -  INFO  - o.s.s.web.DefaultSecurityFilterChain - Will not secure any request
+30 мар. 2022 - 14:31:23.575 -  INFO  - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+30 мар. 2022 - 14:31:24.079 -  INFO  - com.company.UzCard.UzCardApplication - Started UzCardApplication in 6.888 seconds (JVM running for 7.778)
+30 мар. 2022 - 14:32:18.667 -  INFO  - o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+30 мар. 2022 - 14:32:18.667 -  INFO  - o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+30 мар. 2022 - 14:32:18.667 -  INFO  - o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+30 мар. 2022 - 14:33:41.383 -  WARN  - o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+30 мар. 2022 - 14:36:25.292 -  INFO  - o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+30 мар. 2022 - 14:36:25.292 -  INFO  - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+30 мар. 2022 - 14:36:25.317 -  INFO  - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+30 мар. 2022 - 14:40:29.228 -  INFO  - com.company.UzCard.UzCardApplication - Starting UzCardApplication using Java 16.0.2 on DESKTOP-UH8OF4J with PID 12120 (C:\Users\Administrator\OneDrive\UzCard\target\classes started by Administrator in C:\Users\Administrator\OneDrive\UzCard)
+30 мар. 2022 - 14:40:29.228 -  INFO  - com.company.UzCard.UzCardApplication - No active profile set, falling back to 1 default profile: "default"
+30 мар. 2022 - 14:40:30.446 -  INFO  - o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+30 мар. 2022 - 14:40:30.525 -  INFO  - o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 72 ms. Found 3 JPA repository interfaces.
+30 мар. 2022 - 14:40:31.275 -  INFO  - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+30 мар. 2022 - 14:40:31.291 -  INFO  - o.a.catalina.core.StandardService - Starting service [Tomcat]
+30 мар. 2022 - 14:40:31.291 -  INFO  - o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.60]
+30 мар. 2022 - 14:40:31.462 -  INFO  - o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+30 мар. 2022 - 14:40:31.462 -  INFO  - o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2168 ms
+30 мар. 2022 - 14:40:31.728 -  INFO  - o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+30 мар. 2022 - 14:40:31.791 -  INFO  - org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.7.Final
+30 мар. 2022 - 14:40:31.931 -  INFO  - o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+30 мар. 2022 - 14:40:32.025 -  INFO  - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+30 мар. 2022 - 14:40:32.369 -  INFO  - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+30 мар. 2022 - 14:40:32.385 -  INFO  - org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+30 мар. 2022 - 14:40:32.619 -  WARN  - org.hibernate.id.UUIDHexGenerator - HHH000409: Using org.hibernate.id.UUIDHexGenerator which does not generate IETF RFC 4122 compliant UUID values; consider using org.hibernate.id.UUIDGenerator instead
+30 мар. 2022 - 14:40:33.291 -  INFO  - o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+30 мар. 2022 - 14:40:33.307 -  INFO  - o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+30 мар. 2022 - 14:40:33.353 -  WARN  - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+30 мар. 2022 - 14:40:34.510 -  INFO  - o.s.s.web.DefaultSecurityFilterChain - Will not secure any request
+30 мар. 2022 - 14:40:34.885 -  INFO  - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+30 мар. 2022 - 14:40:35.370 -  INFO  - com.company.UzCard.UzCardApplication - Started UzCardApplication in 6.713 seconds (JVM running for 7.616)
+30 мар. 2022 - 14:43:05.662 -  INFO  - o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+30 мар. 2022 - 14:43:05.663 -  INFO  - o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+30 мар. 2022 - 14:43:05.666 -  INFO  - o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+30 мар. 2022 - 14:43:06.201 -  WARN  - o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `int` from String "8600123412344321": Overflow: numeric value (8600123412344321) out of range of int (-2147483648 -2147483647); nested exception is com.fasterxml.jackson.databind.exc.InvalidFormatException: Cannot deserialize value of type `int` from String "8600123412344321": Overflow: numeric value (8600123412344321) out of range of int (-2147483648 -2147483647)<EOL> at [Source: (org.springframework.util.StreamUtils$NonClosingInputStream); line: 3, column: 14] (through reference chain: com.company.UzCard.dto.TransactionDTO["toCard"])]
+30 мар. 2022 - 14:46:24.276 -  INFO  - o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+30 мар. 2022 - 14:46:24.292 -  INFO  - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+30 мар. 2022 - 14:46:24.307 -  INFO  - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+30 мар. 2022 - 14:46:34.134 -  INFO  - com.company.UzCard.UzCardApplication - Starting UzCardApplication using Java 16.0.2 on DESKTOP-UH8OF4J with PID 1304 (C:\Users\Administrator\OneDrive\UzCard\target\classes started by Administrator in C:\Users\Administrator\OneDrive\UzCard)
+30 мар. 2022 - 14:46:34.134 -  INFO  - com.company.UzCard.UzCardApplication - No active profile set, falling back to 1 default profile: "default"
+30 мар. 2022 - 14:46:35.406 -  INFO  - o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+30 мар. 2022 - 14:46:35.485 -  INFO  - o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 70 ms. Found 3 JPA repository interfaces.
+30 мар. 2022 - 14:46:36.277 -  INFO  - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+30 мар. 2022 - 14:46:36.290 -  INFO  - o.a.catalina.core.StandardService - Starting service [Tomcat]
+30 мар. 2022 - 14:46:36.291 -  INFO  - o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.60]
+30 мар. 2022 - 14:46:36.468 -  INFO  - o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+30 мар. 2022 - 14:46:36.468 -  INFO  - o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2275 ms
+30 мар. 2022 - 14:46:36.701 -  INFO  - o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+30 мар. 2022 - 14:46:36.748 -  INFO  - org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.7.Final
+30 мар. 2022 - 14:46:36.889 -  INFO  - o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+30 мар. 2022 - 14:46:36.998 -  INFO  - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+30 мар. 2022 - 14:46:37.208 -  INFO  - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+30 мар. 2022 - 14:46:37.232 -  INFO  - org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+30 мар. 2022 - 14:46:37.410 -  WARN  - org.hibernate.id.UUIDHexGenerator - HHH000409: Using org.hibernate.id.UUIDHexGenerator which does not generate IETF RFC 4122 compliant UUID values; consider using org.hibernate.id.UUIDGenerator instead
+30 мар. 2022 - 14:46:38.020 -  INFO  - o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+30 мар. 2022 - 14:46:38.036 -  INFO  - o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+30 мар. 2022 - 14:46:38.083 -  WARN  - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+30 мар. 2022 - 14:46:39.270 -  INFO  - o.s.s.web.DefaultSecurityFilterChain - Will not secure any request
+30 мар. 2022 - 14:46:39.661 -  INFO  - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+30 мар. 2022 - 14:46:40.130 -  INFO  - com.company.UzCard.UzCardApplication - Started UzCardApplication in 6.539 seconds (JVM running for 7.437)
+30 мар. 2022 - 14:47:05.396 -  INFO  - o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+30 мар. 2022 - 14:47:05.396 -  INFO  - o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+30 мар. 2022 - 14:47:05.404 -  INFO  - o.s.web.servlet.DispatcherServlet - Completed initialization in 8 ms
+30 мар. 2022 - 14:47:05.884 -  WARN  - o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `int` from String "8600123412344321": Overflow: numeric value (8600123412344321) out of range of int (-2147483648 -2147483647); nested exception is com.fasterxml.jackson.databind.exc.InvalidFormatException: Cannot deserialize value of type `int` from String "8600123412344321": Overflow: numeric value (8600123412344321) out of range of int (-2147483648 -2147483647)<EOL> at [Source: (org.springframework.util.StreamUtils$NonClosingInputStream); line: 3, column: 14] (through reference chain: com.company.UzCard.dto.TransactionDTO["toCard"])]
+30 мар. 2022 - 14:48:34.514 -  INFO  - o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+30 мар. 2022 - 14:48:34.514 -  INFO  - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+30 мар. 2022 - 14:48:34.530 -  INFO  - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+30 мар. 2022 - 14:57:45.363 -  INFO  - com.company.UzCard.UzCardApplication - Starting UzCardApplication using Java 16.0.2 on DESKTOP-UH8OF4J with PID 8856 (C:\Users\Administrator\OneDrive\UzCard\target\classes started by Administrator in C:\Users\Administrator\OneDrive\UzCard)
+30 мар. 2022 - 14:57:45.363 -  INFO  - com.company.UzCard.UzCardApplication - No active profile set, falling back to 1 default profile: "default"
+30 мар. 2022 - 14:57:46.562 -  INFO  - o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+30 мар. 2022 - 14:57:46.640 -  INFO  - o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 63 ms. Found 3 JPA repository interfaces.
+30 мар. 2022 - 14:57:47.421 -  INFO  - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+30 мар. 2022 - 14:57:47.437 -  INFO  - o.a.catalina.core.StandardService - Starting service [Tomcat]
+30 мар. 2022 - 14:57:47.437 -  INFO  - o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.60]
+30 мар. 2022 - 14:57:47.609 -  INFO  - o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+30 мар. 2022 - 14:57:47.609 -  INFO  - o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2167 ms
+30 мар. 2022 - 14:57:47.867 -  INFO  - o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+30 мар. 2022 - 14:57:47.914 -  INFO  - org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.7.Final
+30 мар. 2022 - 14:57:48.069 -  INFO  - o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+30 мар. 2022 - 14:57:48.163 -  INFO  - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+30 мар. 2022 - 14:57:48.366 -  INFO  - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+30 мар. 2022 - 14:57:48.397 -  INFO  - org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+30 мар. 2022 - 14:57:48.585 -  WARN  - org.hibernate.id.UUIDHexGenerator - HHH000409: Using org.hibernate.id.UUIDHexGenerator which does not generate IETF RFC 4122 compliant UUID values; consider using org.hibernate.id.UUIDGenerator instead
+30 мар. 2022 - 14:57:49.241 -  INFO  - o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+30 мар. 2022 - 14:57:49.257 -  INFO  - o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+30 мар. 2022 - 14:57:49.304 -  WARN  - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+30 мар. 2022 - 14:57:50.539 -  INFO  - o.s.s.web.DefaultSecurityFilterChain - Will not secure any request
+30 мар. 2022 - 14:57:50.914 -  INFO  - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+30 мар. 2022 - 14:57:51.399 -  INFO  - com.company.UzCard.UzCardApplication - Started UzCardApplication in 6.578 seconds (JVM running for 7.441)
+30 мар. 2022 - 14:58:00.608 -  INFO  - o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+30 мар. 2022 - 14:58:00.608 -  INFO  - o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+30 мар. 2022 - 14:58:00.608 -  INFO  - o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+30 мар. 2022 - 14:58:01.081 -  WARN  - o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `int` from String "8600123412344321": Overflow: numeric value (8600123412344321) out of range of int (-2147483648 -2147483647); nested exception is com.fasterxml.jackson.databind.exc.InvalidFormatException: Cannot deserialize value of type `int` from String "8600123412344321": Overflow: numeric value (8600123412344321) out of range of int (-2147483648 -2147483647)<EOL> at [Source: (org.springframework.util.StreamUtils$NonClosingInputStream); line: 3, column: 14] (through reference chain: com.company.UzCard.dto.TransactionDTO["toCard"])]
+30 мар. 2022 - 14:58:51.565 -  INFO  - o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+30 мар. 2022 - 14:58:51.565 -  INFO  - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+30 мар. 2022 - 14:58:51.565 -  INFO  - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+30 мар. 2022 - 15:01:37.065 -  INFO  - com.company.UzCard.UzCardApplication - Starting UzCardApplication using Java 16.0.2 on DESKTOP-UH8OF4J with PID 12220 (C:\Users\Administrator\OneDrive\UzCard\target\classes started by Administrator in C:\Users\Administrator\OneDrive\UzCard)
+30 мар. 2022 - 15:01:37.065 -  INFO  - com.company.UzCard.UzCardApplication - No active profile set, falling back to 1 default profile: "default"
+30 мар. 2022 - 15:01:38.302 -  INFO  - o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+30 мар. 2022 - 15:01:38.394 -  INFO  - o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 74 ms. Found 3 JPA repository interfaces.
+30 мар. 2022 - 15:01:39.180 -  INFO  - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+30 мар. 2022 - 15:01:39.189 -  INFO  - o.a.catalina.core.StandardService - Starting service [Tomcat]
+30 мар. 2022 - 15:01:39.189 -  INFO  - o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.60]
+30 мар. 2022 - 15:01:39.372 -  INFO  - o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+30 мар. 2022 - 15:01:39.372 -  INFO  - o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2241 ms
+30 мар. 2022 - 15:01:39.624 -  INFO  - o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+30 мар. 2022 - 15:01:39.680 -  INFO  - org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.7.Final
+30 мар. 2022 - 15:01:39.820 -  INFO  - o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+30 мар. 2022 - 15:01:39.942 -  INFO  - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+30 мар. 2022 - 15:01:40.142 -  INFO  - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+30 мар. 2022 - 15:01:40.157 -  INFO  - org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+30 мар. 2022 - 15:01:40.354 -  WARN  - org.hibernate.id.UUIDHexGenerator - HHH000409: Using org.hibernate.id.UUIDHexGenerator which does not generate IETF RFC 4122 compliant UUID values; consider using org.hibernate.id.UUIDGenerator instead
+30 мар. 2022 - 15:01:40.997 -  INFO  - o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+30 мар. 2022 - 15:01:41.005 -  INFO  - o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+30 мар. 2022 - 15:01:41.053 -  WARN  - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+30 мар. 2022 - 15:01:42.255 -  INFO  - o.s.s.web.DefaultSecurityFilterChain - Will not secure any request
+30 мар. 2022 - 15:01:42.658 -  INFO  - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+30 мар. 2022 - 15:01:43.171 -  INFO  - com.company.UzCard.UzCardApplication - Started UzCardApplication in 6.652 seconds (JVM running for 7.558)
+30 мар. 2022 - 15:01:50.714 -  INFO  - o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+30 мар. 2022 - 15:01:50.722 -  INFO  - o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+30 мар. 2022 - 15:01:50.722 -  INFO  - o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+30 мар. 2022 - 15:01:51.213 -  WARN  - o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `int` from String "8600123412344321": Overflow: numeric value (8600123412344321) out of range of int (-2147483648 -2147483647); nested exception is com.fasterxml.jackson.databind.exc.InvalidFormatException: Cannot deserialize value of type `int` from String "8600123412344321": Overflow: numeric value (8600123412344321) out of range of int (-2147483648 -2147483647)<EOL> at [Source: (org.springframework.util.StreamUtils$NonClosingInputStream); line: 3, column: 14] (through reference chain: com.company.UzCard.dto.TransactionDTO["toCard"])]
+30 мар. 2022 - 15:02:35.818 -  INFO  - o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+30 мар. 2022 - 15:02:35.834 -  INFO  - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+30 мар. 2022 - 15:02:35.849 -  INFO  - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+30 мар. 2022 - 15:05:25.061 -  INFO  - com.company.UzCard.UzCardApplication - Starting UzCardApplication using Java 16.0.2 on DESKTOP-UH8OF4J with PID 2612 (C:\Users\Administrator\OneDrive\UzCard\target\classes started by Administrator in C:\Users\Administrator\OneDrive\UzCard)
+30 мар. 2022 - 15:05:25.061 -  INFO  - com.company.UzCard.UzCardApplication - No active profile set, falling back to 1 default profile: "default"
+30 мар. 2022 - 15:05:26.251 -  INFO  - o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+30 мар. 2022 - 15:05:26.329 -  INFO  - o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 63 ms. Found 3 JPA repository interfaces.
+30 мар. 2022 - 15:05:27.095 -  INFO  - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+30 мар. 2022 - 15:05:27.111 -  INFO  - o.a.catalina.core.StandardService - Starting service [Tomcat]
+30 мар. 2022 - 15:05:27.111 -  INFO  - o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.60]
+30 мар. 2022 - 15:05:27.299 -  INFO  - o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+30 мар. 2022 - 15:05:27.299 -  INFO  - o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2182 ms
+30 мар. 2022 - 15:05:27.578 -  INFO  - o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+30 мар. 2022 - 15:05:27.656 -  INFO  - org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.7.Final
+30 мар. 2022 - 15:05:27.796 -  INFO  - o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+30 мар. 2022 - 15:05:27.906 -  INFO  - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+30 мар. 2022 - 15:05:28.203 -  INFO  - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+30 мар. 2022 - 15:05:28.234 -  INFO  - org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+30 мар. 2022 - 15:05:28.438 -  WARN  - org.hibernate.id.UUIDHexGenerator - HHH000409: Using org.hibernate.id.UUIDHexGenerator which does not generate IETF RFC 4122 compliant UUID values; consider using org.hibernate.id.UUIDGenerator instead
+30 мар. 2022 - 15:05:29.047 -  INFO  - o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+30 мар. 2022 - 15:05:29.063 -  INFO  - o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+30 мар. 2022 - 15:05:29.109 -  WARN  - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+30 мар. 2022 - 15:05:30.282 -  INFO  - o.s.s.web.DefaultSecurityFilterChain - Will not secure any request
+30 мар. 2022 - 15:05:30.688 -  INFO  - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+30 мар. 2022 - 15:05:31.157 -  INFO  - com.company.UzCard.UzCardApplication - Started UzCardApplication in 6.611 seconds (JVM running for 7.449)
+30 мар. 2022 - 15:05:41.052 -  INFO  - o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+30 мар. 2022 - 15:05:41.052 -  INFO  - o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+30 мар. 2022 - 15:05:41.067 -  INFO  - o.s.web.servlet.DispatcherServlet - Completed initialization in 15 ms
+30 мар. 2022 - 15:08:13.301 -  INFO  - o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+30 мар. 2022 - 15:08:13.301 -  INFO  - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+30 мар. 2022 - 15:08:13.317 -  INFO  - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+30 мар. 2022 - 16:12:48.455 -  INFO  - com.company.UzCard.UzCardApplication - Starting UzCardApplication using Java 16.0.2 on DESKTOP-UH8OF4J with PID 13688 (C:\Users\Administrator\OneDrive\UzCard\target\classes started by Administrator in C:\Users\Administrator\OneDrive\UzCard)
+30 мар. 2022 - 16:12:48.455 -  INFO  - com.company.UzCard.UzCardApplication - No active profile set, falling back to 1 default profile: "default"
+30 мар. 2022 - 16:12:49.088 -  INFO  - o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+30 мар. 2022 - 16:12:49.139 -  INFO  - o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 40 ms. Found 3 JPA repository interfaces.
+30 мар. 2022 - 16:12:49.511 -  INFO  - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+30 мар. 2022 - 16:12:49.526 -  INFO  - o.a.catalina.core.StandardService - Starting service [Tomcat]
+30 мар. 2022 - 16:12:49.526 -  INFO  - o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.60]
+30 мар. 2022 - 16:12:49.636 -  INFO  - o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+30 мар. 2022 - 16:12:49.636 -  INFO  - o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1131 ms
+30 мар. 2022 - 16:12:49.767 -  INFO  - o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+30 мар. 2022 - 16:12:49.799 -  INFO  - org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.7.Final
+30 мар. 2022 - 16:12:49.877 -  INFO  - o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+30 мар. 2022 - 16:12:49.924 -  INFO  - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+30 мар. 2022 - 16:12:50.033 -  INFO  - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+30 мар. 2022 - 16:12:50.049 -  INFO  - org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+30 мар. 2022 - 16:12:50.142 -  WARN  - org.hibernate.id.UUIDHexGenerator - HHH000409: Using org.hibernate.id.UUIDHexGenerator which does not generate IETF RFC 4122 compliant UUID values; consider using org.hibernate.id.UUIDGenerator instead
+30 мар. 2022 - 16:12:50.439 -  INFO  - o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+30 мар. 2022 - 16:12:50.455 -  INFO  - o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+30 мар. 2022 - 16:12:50.490 -  WARN  - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+30 мар. 2022 - 16:12:51.096 -  INFO  - o.s.s.web.DefaultSecurityFilterChain - Will not secure any request
+30 мар. 2022 - 16:12:51.346 -  INFO  - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+30 мар. 2022 - 16:12:51.627 -  INFO  - com.company.UzCard.UzCardApplication - Started UzCardApplication in 3.435 seconds (JVM running for 3.863)
+30 мар. 2022 - 16:14:39.517 -  INFO  - o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+30 мар. 2022 - 16:14:39.517 -  INFO  - o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+30 мар. 2022 - 16:14:39.517 -  INFO  - o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+30 мар. 2022 - 16:14:39.750 -  WARN  - o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `int` from String "8600123412344321": Overflow: numeric value (8600123412344321) out of range of int (-2147483648 -2147483647); nested exception is com.fasterxml.jackson.databind.exc.InvalidFormatException: Cannot deserialize value of type `int` from String "8600123412344321": Overflow: numeric value (8600123412344321) out of range of int (-2147483648 -2147483647)<EOL> at [Source: (org.springframework.util.StreamUtils$NonClosingInputStream); line: 3, column: 14] (through reference chain: com.company.UzCard.dto.TransactionDTO["toCard"])]
+30 мар. 2022 - 16:15:20.115 -  INFO  - o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+30 мар. 2022 - 16:15:20.115 -  INFO  - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+30 мар. 2022 - 16:15:20.130 -  INFO  - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+30 мар. 2022 - 16:16:30.667 -  INFO  - com.company.UzCard.UzCardApplication - Starting UzCardApplication using Java 16.0.2 on DESKTOP-UH8OF4J with PID 7468 (C:\Users\Administrator\OneDrive\UzCard\target\classes started by Administrator in C:\Users\Administrator\OneDrive\UzCard)
+30 мар. 2022 - 16:16:30.667 -  INFO  - com.company.UzCard.UzCardApplication - No active profile set, falling back to 1 default profile: "default"
+30 мар. 2022 - 16:16:31.288 -  INFO  - o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+30 мар. 2022 - 16:16:31.335 -  INFO  - o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 34 ms. Found 3 JPA repository interfaces.
+30 мар. 2022 - 16:16:31.710 -  INFO  - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+30 мар. 2022 - 16:16:31.725 -  INFO  - o.a.catalina.core.StandardService - Starting service [Tomcat]
+30 мар. 2022 - 16:16:31.725 -  INFO  - o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.60]
+30 мар. 2022 - 16:16:31.803 -  INFO  - o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+30 мар. 2022 - 16:16:31.803 -  INFO  - o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1098 ms
+30 мар. 2022 - 16:16:31.928 -  INFO  - o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+30 мар. 2022 - 16:16:31.960 -  INFO  - org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.7.Final
+30 мар. 2022 - 16:16:32.038 -  INFO  - o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+30 мар. 2022 - 16:16:32.085 -  INFO  - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+30 мар. 2022 - 16:16:32.194 -  INFO  - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+30 мар. 2022 - 16:16:32.210 -  INFO  - org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+30 мар. 2022 - 16:16:32.303 -  WARN  - org.hibernate.id.UUIDHexGenerator - HHH000409: Using org.hibernate.id.UUIDHexGenerator which does not generate IETF RFC 4122 compliant UUID values; consider using org.hibernate.id.UUIDGenerator instead
+30 мар. 2022 - 16:16:32.607 -  INFO  - o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+30 мар. 2022 - 16:16:32.607 -  INFO  - o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+30 мар. 2022 - 16:16:32.638 -  WARN  - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+30 мар. 2022 - 16:16:33.247 -  INFO  - o.s.s.web.DefaultSecurityFilterChain - Will not secure any request
+30 мар. 2022 - 16:16:33.450 -  INFO  - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+30 мар. 2022 - 16:16:33.716 -  INFO  - com.company.UzCard.UzCardApplication - Started UzCardApplication in 3.309 seconds (JVM running for 3.735)
+30 мар. 2022 - 16:16:42.395 -  INFO  - o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+30 мар. 2022 - 16:16:42.395 -  INFO  - o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+30 мар. 2022 - 16:16:42.395 -  INFO  - o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+30 мар. 2022 - 16:16:56.773 -  WARN  - o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `int` from String "8600123412344321": Overflow: numeric value (8600123412344321) out of range of int (-2147483648 -2147483647); nested exception is com.fasterxml.jackson.databind.exc.InvalidFormatException: Cannot deserialize value of type `int` from String "8600123412344321": Overflow: numeric value (8600123412344321) out of range of int (-2147483648 -2147483647)<EOL> at [Source: (org.springframework.util.StreamUtils$NonClosingInputStream); line: 3, column: 14] (through reference chain: com.company.UzCard.dto.TransactionDTO["toCard"])]
+30 мар. 2022 - 16:17:14.952 -  INFO  - o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+30 мар. 2022 - 16:17:14.952 -  INFO  - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+30 мар. 2022 - 16:17:14.952 -  INFO  - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
